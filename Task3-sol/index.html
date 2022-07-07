@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task 3</title>
+	<link rel="stylesheet" href="css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+
+<body>
+	<div id="popupscreen">
+		<section>
+			<h1 style="color: white;">please fill book form</h1>
+		  <a href="#" class="text-white d-inline-block bg-warning py-2 px-3 mb-5 mb-lg-0 text-decoration-none de rounded btn yellow"id="closePopup">Okay</a>
+		</section>
+		</div>
+	<section id="sec-1">
+		<div class="container">
+			<nav>
+				<img src="images/logo.png" alt="">
+				<label for="menubtn"><i class="fa-solid fa-bars"></i></label>
+				<input type="checkbox" id="menubtn">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#sec-2">About</a></li>
+					<li><a href="#sec-3">Cars</a></li>
+					<li><a href="#sec-5">Team</a></li>
+					<li><a href="#sec-6">Blog</a></li>
+					<li><a href="#sec-7">Contact</a></li>
+					<li><a href="#">Pages</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="container">
+			<article >
+				<h4>Lorem ipsum dolor sit amet.</h4>
+				<h2>Relaxed Journey Ever</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cupiditate aspernatur alias molestiae aut culpa dignissimos perferendis, odit delectus, vero, eaque sed! Consectetur at voluptate, quisquam quod maiores maxime, sapiente.</p>
+				<a href="javascript:;" class="btn yellow" id="openPopup">Rent Car Now</a>
+			</article>
+			<form>
+				<h3>Book your car Today</h3>
+				<select name="">
+					<option value="0">Select Your Car</option>
+				</select>
+				
+				<select name="">
+					<option value="0">Pick up</option>
+				</select>
+				<input type="text" name="" placeholder="Date & Time">
+				
+				<select name="">
+					<option value="0">Drop Off</option>
+				</select>
+				<input type="text" name="" placeholder="Date & Time">
+				
+				<input type="text" id="fullname" placeholder="Your Name" onblur="editeName()">
+				<input type="text" id="email" placeholder="Email Address "onblur="editeEmail()">
+				<input type="text" id="phone" placeholder="Phone Number" onblur="editePhone()">
+				
+				<button type="submit" class="btn yellow button-form">Confirm Car Booking</button>
+			</form>
+		</div>
+	</section>
+	<!-- section2 -->
+	<section id="sec-2">
+		<div class="container">
+			<h2 class="h2">What services we offer to our clients</h2>
+			<h5 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+		</div>
+	
+		<div class="container">
+			<article>
+				<h3><img src="images/icons/ico1.jpg" alt="">Expert Technicians</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias repellat officiis quaerat voluptate dicta et sint, harum, dolores, reiciendis, possimus itaque explicabo. Repudiandae unde vitae perferendis voluptatem corrupti quo.</p>
+			</article>
+			<article>
+				<h3><img src="images/icons/ico2.jpg" alt="">Expert Technicians</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias repellat officiis quaerat voluptate dicta et sint, harum, dolores, reiciendis, possimus itaque explicabo. Repudiandae unde vitae perferendis voluptatem corrupti quo.</p>
+			</article>
+			<article>
+				<h3><img src="images/icons/ico3.jpg" alt="">Expert Technicians</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias repellat officiis quaerat voluptate dicta et sint, harum, dolores, reiciendis, possimus itaque explicabo. Repudiandae unde vitae perferendis voluptatem corrupti quo.</p>
+			</article>
+			<article>
+				<h3><img src="images/icons/ico4.jpg" alt="">Expert Technicians</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias repellat officiis quaerat voluptate dicta et sint, harum, dolores, reiciendis, possimus itaque explicabo. Repudiandae unde vitae perferendis voluptatem corrupti quo.</p>
+			</article>
+			<article>
+				<h3><img src="images/icons/ico5.jpg" alt="">Expert Technicians</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias repellat officiis quaerat voluptate dicta et sint, harum, dolores, reiciendis, possimus itaque explicabo. Repudiandae unde vitae perferendis voluptatem corrupti quo.</p>
+			</article>
+			<article>
+				<h3><img src="images/icons/ico6.jpg" alt="">Expert Technicians</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut molestias repellat officiis quaerat voluptate dicta et sint, harum, dolores, reiciendis, possimus itaque explicabo. Repudiandae unde vitae perferendis voluptatem corrupti quo.</p>
+			</article>
+		</div>
+	</section>
+	
+	<section id="sec-3">
+		<div class="container">
+			<article>
+				<h2 class="h2">Globally Connected by large network</h2>
+				<h5 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quas accusamus culpa blanditiis incidunt quod omnis, error maxime placeat eaque, nam vel esse rem eligendi quibusdam recusandae libero qui cupiditate!</p>
+				<a href="javascript:;" class="btn yellow">Get Details</a>
+			</article>
+			<img src="images/about-img.jpg" alt="" class="imgRes">
+		</div>
+	</section>
+	
+	
+	<section id="sec-4">
+		<div class="container">
+			<h2 class="h2">Choose your desired car model</h2>
+			<h5 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+		</div>
+		
+		<div class="container">
+			<article>
+				<div>
+					<h3>Audi 300 msi</h3>
+					<h2>$140<span>/day</span></h2>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sed natus odio id rerum laudantium quisquam est, ipsa accusantium voluptatum suscipit iusto, cum tempora totam quo quasi aspernatur reiciendis praesentium?</p>
+				<p>
+					Capacity: 04 Persons<br>
+					Doors: 04<br>
+					Air Conditions: Dual Zone<br>
+					Transmission: Automatic
+				</p>
+				<a href="javascript" class="btn black">book this car now</a>
+			</article>
+			<img src="images/car.jpg" alt="" class="imgRes2">
+		</div>
+		
+		<div class="container">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</section>
+	
+	<section id="sec-5">
+		<div class="container">
+			<h2>Experience Great Support</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut accusantium eum nobis quidem repellendus earum ducimus deleniti reiciendis quas architecto facilis, molestias quia harum aut sit reprehenderit id iste necessitatibus.</p>
+			<a href="javascript:;" class="btn">reach great team</a>
+		</div>
+	</section>
+	
+	
+	<section id="sec-6">
+		<div class="container">
+			<h2 class="h2">Latest From our blog</h2>
+			<h5 class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet animi iste eius doloribus debitis tempora.</h5>
+		</div>
+	
+		<div class="container">
+			<article>
+				<img src="images/b1.jpg" alt="" class="imgRes2">
+				<span>10 Jan 2018</span>
+				<h4>Lorem ipsum dolor sit amet.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus vel distinctio impedit mollitia, assumenda eveniet debitis reprehenderit tempore.</p>
+				<div>
+					<img src="images/icons/like-ico.jpg" alt="">
+					<span>15 Likes</span>
+					<img src="images/icons/comment-ico.jpg" alt="">
+					<span>02 Comments</span>
+				</div>
+			</article>
+			<article>
+				<img src="images/b2.jpg" alt="" class="imgRes2">
+				<span>10 Jan 2018</span>
+				<h4>Lorem ipsum dolor sit amet.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus vel distinctio impedit mollitia, assumenda eveniet debitis reprehenderit tempore.</p>
+				<div>
+					<img src="images/icons/like-ico.jpg" alt="">
+					<span>15 Likes</span>
+					<img src="images/icons/comment-ico.jpg" alt="">
+					<span>02 Comments</span>
+				</div>
+			</article>
+			<article>
+				<img src="images/b3.jpg" alt="" class="imgRes2">
+				<span>10 Jan 2018</span>
+				<h4>Lorem ipsum dolor sit amet.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus vel distinctio impedit mollitia, assumenda eveniet debitis reprehenderit tempore.</p>
+				<div>
+					<img src="images/icons/like-ico.jpg" alt="">
+					<span>15 Likes</span>
+					<img src="images/icons/comment-ico.jpg" alt="">
+					<span>02 Comments</span>
+				</div>
+			</article>
+			<article>
+				<img src="images/b4.jpg" alt="" class="imgRes2">
+				<span>10 Jan 2018</span>
+				<h4>Lorem ipsum dolor sit amet.</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus vel distinctio impedit mollitia, assumenda eveniet debitis reprehenderit tempore.</p>
+				<div>
+					<img src="images/icons/like-ico.jpg" alt="">
+					<span>15 Likes</span>
+					<img src="images/icons/comment-ico.jpg" alt="">
+					<span>02 Comments</span>
+				</div>
+			</article>
+
+		</div>
+	</section>
+	
+	<section id="sec-7">
+		<div class="container">
+			<article>
+				<h2>Quick links</h2>
+				<a href="#">Jobs</a>
+				<a href="#">Brans Assets</a>
+				<a href="#">Investor Relations</a>
+				<a href="#">Terms of service</a>
+			</article>
+			<article>
+				<h2>Quick links</h2>
+				<a href="#">Jobs</a>
+				<a href="#">Brans Assets</a>
+				<a href="#">Investor Relations</a>
+				<a href="#">Terms of service</a>
+			</article>
+			<article>
+				<h2>Quick links</h2>
+				<a href="#">Jobs</a>
+				<a href="#">Brans Assets</a>
+				<a href="#">Investor Relations</a>
+				<a href="#">Terms of service</a>
+			</article>
+			<article>
+				<h2>Follow us</h2>
+				<span>let us be social</span>
+				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="#"><i class="fa-brands fa-youtube"></i></a>
+			</article>
+			<article>
+				<h2>News Letters</h2>
+				<span>Stay updated with our latest</span>
+				<input type="text" name="" placeholder="Enter Email"><button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+			</article>
+		</div>
+
+	<div class="container">
+		<p>copyright &copy; 2018 All Rights Rewserved.</p>
+		</div>
+	</section>
+	<script src="./js/file.js"></script>
+</body>
+</html>
